@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="background">@android:color/holo_orange_light</item>
+        <item name="title">"I am Back"</item>
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
