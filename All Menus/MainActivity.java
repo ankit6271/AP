@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         x.setIcon(R.drawable.ic_baseline_search_24);
-        x.setCancelable(false);
+        x.setCancelable(false).show();
         super.onBackPressed();
     }
 }
