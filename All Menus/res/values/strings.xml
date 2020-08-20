@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="yes">Yes</string>
+    <string name="yesu">Yes going right u can do well</string>
+    <string name="no">No</string>
+    <string name="go">Go to Other Activity</string>
+    <string name="Search">Search</string>
+    <string name="Button_in_act2">Popup</string>
+</resources>
