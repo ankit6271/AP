@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="imageviewname">Image1</string>
+    <string name="hashesafter">------------------------------------------------------------------------------------------------</string>
+</resources>
