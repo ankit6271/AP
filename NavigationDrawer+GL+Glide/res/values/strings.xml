@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="Home">Home</string>
+    <string name="Camera">Camera</string>
+    <string name="Photos">Photos</string>
+    <string name="Map">Map</string>
+    <string name="Inbox">Inbox</string>
+    <string name="Messages">Messages</string>
+    <string name="Communication">Communication</string>
+    <string name="Ankit">Ankit</string>
+    <string name="Email">ankitbhrdwaj6707@gmail.com</string>
+</resources>

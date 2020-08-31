@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:title="@string/Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:title="@string/Inbox"
+            android:icon="@drawable/inbox"/>
+        <item android:title="@string/Camera"
+            android:icon="@drawable/camera"/>
+    </group>
+    <item android:title="@string/Communication">
+        <menu>
+            <item
+                android:icon="@drawable/message"
+                android:title="@string/Messages"></item>
+            <item
+                android:icon="@drawable/map"
+                android:title="@string/Map" />
+        </menu>
+    </item>
+</menu>
