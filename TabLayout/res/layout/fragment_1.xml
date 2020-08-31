@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECE9"
+    tools:context=".Fragment1">
+
+    <TextView
+        android:id="@+id/textciew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#D56006"
+        android:textSize="39sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="227dp"
+        android:layout_height="169dp"
+        android:layout_below="@id/textciew"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="180dp"
+        android:contentDescription="@string/F1"
+        android:onClick="clickbutton"
+        android:src="@drawable/ic_baseline_account_balance_24" />
+</RelativeLayout>
