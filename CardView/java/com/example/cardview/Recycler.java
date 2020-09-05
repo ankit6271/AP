@@ -1,6 +1,7 @@
 package com.example.cardview;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -31,10 +33,19 @@ public class Recycler extends RecyclerView.Adapter<Recycler.Handler> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull Handler holder, int position) {
+    public void onBindViewHolder(@NonNull final Handler holder, int position) {
         holder.t1.setText(title[position]);
         holder.t2.setText(text[position]);
         Glide.with(context_main).load(uri[position]).into(holder.i);
+        
+        //to change font of textview once we click on it using typeface
+        final Typeface t= ResourcesCompat.getFont(context_main,R.font.snowburst_one);
+        holder.t1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                holder.t1.setTypeface(t);
+            }
+        });
     }
 
     @Override
