@@ -1,3 +1,5 @@
+// This activity is for splash screen In a Project.
+
 package com.example.threadingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,9 +18,17 @@ public class MainActivity extends AppCompatActivity {
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
+                
+                //Choose any of the below activity to implement as an intent just do remove a comment portion only.
+               
+                //1-----------This Intent is for a activity which is basically for Normal java thread which provides a progress dialog
                 Intent i=new Intent(MainActivity.this,SimpleJavaThread.class);
-//                Intent i=new Intent(MainActivity.this,FirstActivity.class);
-//                Intent i=new Intent(MainActivity.this,AsyncTL.class);
+                
+                //2------------This Intent is for a activity which is basically for AsyncTask thread which provides a counting mechanism
+               Intent i=new Intent(MainActivity.this,FirstActivity.class);
+                
+                //3------------This Intent is for a activity which is basically for AsyncTaskLoader thread which provides a counting mechanism
+               Intent i=new Intent(MainActivity.this,AsyncTL.class);
                 startActivity(i);
                 finish();
             }
